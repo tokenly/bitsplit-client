@@ -1,0 +1,23 @@
+{
+    "name": "tokenly/bitsplit-client",
+    "description": "A client library for Bitsplit",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Rathman",
+            "email": "nick@tokenly.com",
+            "homepage": "http://tokenly.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4"
+    },
+    "autoload": {
+        "psr-0": {"Tokenly\\BitsplitClient": "src"}
+    }
+}
